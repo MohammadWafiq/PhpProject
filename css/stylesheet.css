@@ -1,0 +1,92 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+.headerimgg{
+object-fit: cover;
+width:100%;
+height:130%;
+opacity: 0.3;
+
+}
+h1{
+  font-family: Sofia-Sance;
+}
+.navbar-nav,.navbar-brand,.btn
+{
+  font-family: Sofia-Sance;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.header-button{
+  color: #ECE8DD;
+}
+.header-button:hover{
+  background-color: #ECE8DD;
+  color: black;
+}
+.current{
+  font-size: x-large;
+}
+.list-item{
+  color: #ECE8DD;
+}
+header {
+    width: 100%;
+    height:65%;
+    background: black;
+    overflow: hidden;
+position: relative;
+}
+.headerp{
+  position: absolute;
+  height: 40px;
+}
+.headertitle{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: #ECE8DD;
+}
+.list-item:hover{
+  font-size: x-large;
+}
+
+.about{
+  position: relative;
+  width: 700px;
+  font-size:25px;
+margin: auto;
+margin-top: 20px;
+}
+
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+/* background: #fccb90; */
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}

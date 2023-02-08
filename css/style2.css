@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+.logoimgg{
+object-fit: cover;
+width:100%;
+height:100%;
+opacity: 0.3;
+
+}
+.navbar-nav,.navbar-brand,.btn
+{
+  font-family: Sofia-Sance;
+}
+
+header {
+
+    width: 100%;
+    height:100%;
+    background: black;
+    overflow: hidden;
+position: relative;
+}
